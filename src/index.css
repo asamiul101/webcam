@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.App {
+    margin-top: 0%;
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #3d1f1f;
+
+}
+
+.cam {
+    margin-top: 0%;
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #3d1f1f;
+
+}
+
+
+.home{
+    min-height: 20vh;
+    position: relative;
+    background-color: #26c9e6;
+}
+
+.homes{
+    min-height: 80vh;
+    position: relative;
+    background-color: #26c9e6;
+}
+
+
+video{
+    margin-top: 0%;
+    margin-left: 50;
+    margin-right: 50;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
+button{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    appearance: none;
+    border: none;
+    outline: none;
+
+    padding: 8px 16px;
+    background-image: linear-gradient(to right, rgb(8, 91, 119) 50%, blue 50%);
+    background-position: 0%;
+    background-size: 200%;
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: 700;
+    transition: 0.4s;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-position: 100%;
+}
